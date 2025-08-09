@@ -1,0 +1,1 @@
+let model: string[] = ["Volkswagen", "fiat", "chevrolet"]
