@@ -1,8 +1,8 @@
 import type { User } from '../interfaces/user.ts';
 
-const users: User[] = [];
-
 export const MyDatabaseFunction = (function () {
+  const users: User[] = [];
+
   return {
     add(user: User): void {
       users.push(user);
